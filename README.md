@@ -26,10 +26,15 @@ This session will provide a solid foundation for you to start developing your ow
 
 ## What You’ll Learn
 By the end of this session, you will:
+
 ✅ Understand the basic concepts of game development
+
 ✅ Learn how Pygame works and its core mechanics
+
 ✅ Gain insights into how game components communicate
+
 ✅ Be able to start your own Pygame project
+
 
 ## How to Join
 For more details and to register:
