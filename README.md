@@ -38,9 +38,13 @@ By the end of this session, you will:
 
 ## How to Join
 For more details and to register:
+
 **Email:** kanaryateknoloji@fbu.edu.tr
+
 **Website:** www.fbuktk.com
+
 **Instagram:** @fbuktk | @fbu.esports
+
 
 ## Who Should Attend?
 This event is perfect for:
