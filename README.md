@@ -49,7 +49,10 @@ For more details and to register:
 ## Who Should Attend?
 This event is perfect for:
 
-Students interested in game development
-Beginner programmers curious about how games are made
-Anyone looking to start their journey in Python game development
+Students interested in game development,
+
+Beginner programmers curious about how games are made,
+
+Anyone looking to start their journey in Python game development,
+
 Join us for an exciting introduction to Pygame, where you'll gain the fundamentals of game development while exploring our very own game, Fener Arena | Kanarya Edition!
