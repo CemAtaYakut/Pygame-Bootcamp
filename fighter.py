@@ -20,6 +20,10 @@ class Fighter():
 
     #tuşları dinle
         key = pygame.key.get_pressed()
+        if self.attack_cooldown > 0:
+            self.attack_cooldown -= 1  # Saldırı aralığı
+        else:
+            self.attacking = False
 
         #Yalnızca saldırı yapamıyorken diğer hareketler yapılabilir
         if self.attacking == False:
@@ -73,7 +77,7 @@ class Fighter():
             self.attacking = True
             attacking_rect = pygame.Rect(self.rect.centerx - (2 * self.rect.width * self.flip), self.rect.y, 2 * self.rect.width, self.rect.height)
             if attacking_rect.colliderect(target.rect):
-                target.health -= 10
+                target.health -= 1
                 target.hit = True    
         
         pygame.draw.rect(surface, (0, 255, 0), attacking_rect)
