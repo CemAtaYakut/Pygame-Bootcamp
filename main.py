@@ -19,7 +19,7 @@ YELLOW = (255, 255, 0)
 WHITE = (255, 255, 255)
 
 #load backgorund image
-bg_image = pygame.image.load("assets/images/background/saracoglu_arkaplan.jpg").convert_alpha()
+bg_image = pygame.image.load("assets/images/background/Bootcamp-Arkaplan.jpg").convert_alpha()
 
 # ARKAPLAN ÇİZME / DRAW BACKGROUND
 def draw_bg():
@@ -33,7 +33,7 @@ def draw_health_bar(health, x ,y):
     pygame.draw.rect(screen, RED, (x, y, 800, 50))
     pygame.draw.rect(screen, YELLOW, (x, y, 800 * ratio, 50))
 
-#create two instances of fighters
+# KARAKTER OLUŞTUR
 fighter_1 = Fighter(400, 620)
 fighter_2 = Fighter(1400, 620)
 
@@ -44,10 +44,10 @@ run = True
 while run:
 
     clock.tick(FPS)
-    #draw bg
+    # ARKAPLAN ÇİZ
     draw_bg()
 
-    #SHOW PLAYER STATS
+    # OYUNCU STATLARI
     draw_health_bar(fighter_1.health, 50, 50)
     draw_health_bar(fighter_2.health, 1070, 50) 
 
@@ -55,7 +55,7 @@ while run:
     fighter_1.move(SCREEN_WIDTH, SCREEN_HEIGHT, screen, fighter_2)
     #fighter_2.move(SCREEN_WIDTH, SCREEN_HEIGHT, screen, fighter_1)
 
-    #draw fighters
+    #karakterleri çiz
     fighter_1.draw(screen)
     fighter_2.draw(screen)
 
@@ -68,5 +68,5 @@ while run:
     #update display
     pygame.display.update()
 
-#exit pygame
+# pygameden çık
 pygame.quit()
